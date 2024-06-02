@@ -1,0 +1,22 @@
+name: d10base
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - d10base/base
+  - d10base/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - d10base/user
+  core/drupal.dropbutton:
+    - d10base/dropbutton
+  core/drupal.dialog:
+    - d10base/dialog
+  file/drupal.file:
+    - d10base/file
+  core/drupal.progress:
+    - d10base/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.6'
