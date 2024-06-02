@@ -1,0 +1,12 @@
+d10base.narrow:
+  label: narrow
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+d10base.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
