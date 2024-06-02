@@ -7,6 +7,7 @@ libraries:
   - d10base/base
   - d10base/messages
   - core/normalize
+  - d10base/global-styling
 libraries-extend:
   user/drupal.user:
     - d10base/user
